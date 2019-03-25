@@ -5,6 +5,8 @@
  
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 h1, h2, h3 {
     font-family: 'Josefin Sans', sans-serif;
@@ -22,15 +24,19 @@ h1, h2, h3 {
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-  color: #ab4116;
+  color: #821710;
   &:hover {
-    color: #ab4116;
+    color: #821710;
     opacity: 0.75;
   }
 }
 
+.navbar-default .navbar-brand {
+  font-weight: 700;
+}
+
 .home-callout {
-  color: #ab4116;
+  color: #821710;
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
