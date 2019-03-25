@@ -20,6 +20,15 @@ h1, h2, h3 {
   border: none;
 }
 
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #ab4116;
+  &:hover {
+    color: #ab4116;
+    opacity: 0.75;
+  }
+}
+
 .home-callout {
   color: #ab4116;
   margin-top: -20px;
