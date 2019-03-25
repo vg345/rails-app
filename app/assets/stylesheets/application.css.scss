@@ -35,6 +35,16 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #821710;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid #821710;
+  &:hover, &:focus {
+    background-color: #e8e5a6;
+  }
+}
+
 .home-callout {
   color: #821710;
   margin-top: -20px;
