@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  devise_for :users
   root to: 'pages#home'
+  devise_for :users
+  resources :users do
+    resource :profile
+  end
   get 'about', to: 'pages#about'
   get 'testimonials', to: 'pages#testimonials'
   resources :contacts, only: :create
